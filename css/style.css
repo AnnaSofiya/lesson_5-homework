@@ -1,0 +1,379 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC:regular,700&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Old+Standard+TT:regular,italic,700&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "Falcon Sport One";
+	src: url("../fonts/FalconSportOne.woff2") format("woff2"), url("../fonts/FalconSportOne.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Falcon Sport Two";
+	src: url("../fonts/FalconSportTwo-Italic.woff2") format("woff2"),
+		url("../fonts/FalconSportTwo-Italic.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+/* .wrapper {
+	min-height: 100%;
+	overflow: hidden;
+} */
+/* ------------------------- */
+
+body {
+	font-family: "Falcon Sport One";
+	font-style: italic;
+	font-size: 16px;
+	text-align: justify;
+}
+h2 {
+	font-family: "Old Standard TT", serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	color: purple;
+	text-shadow: 2px 2px 1px rebeccapurple;
+}
+header {
+	margin: 10px;
+	padding: 10px 15px 15px 20px;
+}
+h1 {
+	font-family: "Amatic SC", cursive;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	color: crimson;
+	text-shadow: 2px 2px 1px fuchsia;
+}
+.list-home {
+	font-size: 25px;
+	font-family: "Old Standard TT", serif;
+	font-weight: 700;
+	text-align: left;
+	letter-spacing: 2px;
+	color: red;
+	text-shadow: 2px 1px 1px black;
+	line-height: 25px;
+	padding: 0px 0px 20px 10px;
+	margin: 25px;
+}
+.list-home .task1,
+.list-home .task2 {
+	padding: 5px 0px 5px 30px;
+	color: blue;
+	text-shadow: 1px 1px 1px skyblue;
+}
+
+.img1 {
+	display: inline-block;
+	max-width: 10%;
+	/* width: 100%; */
+}
+.text {
+	font-family: "Falcon Sport Two";
+	margin: 20px 0px 50px 0px;
+	font-size: 20px;
+	text-indent: 25px;
+	text-align: justify;
+	word-spacing: 5px;
+}
+
+.img2 {
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	background-color: black;
+}
+.main {
+	padding: 5px 40px;
+}
+.main a {
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 700;
+	text-decoration: underline;
+	display: inline;
+	padding: 0px 0px 20px 0px;
+}
+.div1 .text {
+	/* overflow: scroll; */
+	/* box-sizing: content-box; */
+	overflow: visible;
+	max-width: 50%;
+}
+
+.div1 ol,
+.div3 ol,
+.div4 ol {
+	font-size: 20px;
+	color: sienna;
+	line-height: 25px;
+	max-height: 100px;
+	height: 500px;
+	overflow: scroll;
+	padding: 20px 0px 30px 0px;
+	margin: 20px 0px;
+}
+.img3 {
+	padding: 20px 0px 20px 0px;
+	max-width: 30%;
+}
+.div1 .span {
+	text-align: center;
+	display: block;
+	margin: 20px 30px;
+}
+.div2 {
+	padding: 15px 10px 20px 20px;
+	margin: 10px;
+}
+.div2 .text3 {
+	margin: 80px 120px 80px 300px;
+	width: 70px;
+	overflow: visible;
+	background: green;
+}
+.img4 {
+	width: 80%;
+}
+.div2 .text4 {
+	margin: 0px auto;
+	display: inline-block;
+	text-align: justify;
+	padding: 20px 0px;
+	text-indent: 25px;
+	width: 75%;
+	min-width: 500px;
+}
+
+.text4 .span1 {
+	font-size: 24px;
+	color: limegreen;
+	text-shadow: -2px -2px 1px seagreen;
+}
+.span2 {
+	display: block;
+	font-style: italic;
+	white-space: nowrap;
+}
+.div3 {
+	width: 90%;
+	padding: 15px 15px 15px 15px;
+	margin: 20px 10px 20px 10px;
+}
+.p1 {
+	padding: 15px 0px 0px 0px;
+	width: 75%;
+	margin: 0px auto;
+}
+.img5 {
+	width: 60%;
+	padding: 20px 0px;
+	margin: 20px 0px;
+	display: inline-block;
+}
+.div3 span {
+	display: block;
+	text-align: justify;
+	background-color: red;
+	margin: 50px 30px 40px 30px;
+	padding: 20px;
+}
+h3 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	padding: 25px 0px;
+	text-shadow: 2px 2px 2px gold;
+}
+.p2 {
+	overflow: hidden;
+	width: 40%;
+	background-color: plum;
+}
+.div3 .p3 {
+	overflow: hidden;
+	width: 80%;
+	max-width: 250px;
+	background-color: yellow;
+	margin: 5px 10px 5px 600px;
+}
+.div4 .p4 {
+	display: inline;
+}
+
+.div5 p {
+	padding: 30px;
+}
+
+.v {
+	width: 200px;
+
+	margin: 0 0 0 auto;
+	background: green;
+}
+.v1 {
+	margin: 30px 30px;
+	padding: 15px;
+	background-color: yellow;
+}
+.div5 .v2 {
+	width: 50%;
+	margin: 0px auto 100px auto;
+	background-color: cyan;
+}
+
+.v3 {
+	max-width: 400px;
+	margin: 20px 0 20px auto;
+	background-color: pink;
+}
+.v4 {
+	background-color: red;
+	max-width: 300px;
+	margin: 0 auto 0 0;
+}
+.div5 img {
+	margin: 20px;
+	padding: 10px;
+	background-color: black;
+	width: 700px;
+	max-width: 100%;
+	display: inline-block;
+}
+.task2-1,
+.task2-2,
+.task2-3,
+.task2-4,
+.task2-5,
+.task2-6 {
+	font-family: "Amatic SC", cursive;
+	font-size: 20px;
+	font-weight: 700;
+	margin: 30px 15px;
+}
+.task2-1 span {
+	display: block;
+	line-height: 25px;
+	color: red;
+	margin: 60px 15px;
+}
+
+.task2-2 h2 {
+	margin: 50px 0px 90px 0px;
+}
+.task2-2 {
+	width: 60%;
+	margin: 0px auto;
+}
+.task2-2 .t2 {
+	margin: auto 40px;
+	max-height: 200px;
+	display: inline-block;
+	background-color: orange;
+	max-width: 200px;
+	padding: 15px;
+}
+
+.task2-3 a {
+	display: block;
+	margin: 0px 0px 30px 0px;
+	max-width: 30px;
+	color: yellow;
+}
+.task2-4 h2 {
+	margin: 50px 0px 90px 0px;
+}
+.task2-4 {
+	width: 80%;
+	margin: 50px auto 50px auto;
+}
+
+.p1 {
+	margin: auto 30px;
+	display: inline-block;
+	background-color: yellowgreen;
+	max-width: 100px;
+	padding: 10px;
+}
+.task2-5 h2 {
+	margin: 50px 0px 90px 0px;
+}
+.task2-5 {
+	color: skyblue;
+	margin: 20px 5px;
+}
+.task2-5 .t {
+	background-color: whitesmoke;
+}
+.task2-5 .t2 {
+	background-color: lightyellow;
+	padding: 30px;
+	margin: -50px 0px;
+}
+.task2-6 h2 {
+	margin: 50px 0px 90px 0px;
+}
+.task2-6 span {
+	display: block;
+	overflow: scroll;
+	height: 100%;
+	max-height: 200px;
+	color: blue;
+}
+.footer a {
+	font-family: "Falcon Sport Two";
+	font-weight: 700;
+	color: crimson;
+	text-shadow: 2px 2px 2px pink;
+	font-size: 25px;
+	text-align: right;
+	margin: 50px 20px;
+	padding: 50px 20px;
+}
